@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Poem Gallery</title>
+</head>
+<body>
+    <h1>Virtual Poem Gallery</h1>
+
+    <div id="wall-west">
+        <h2>West Wall</h2>
+
+        <article class="poem" id="poem-moon">
+            <h3>The Moon</h3>
+            <p>The moon shines bright,<br>Across the quiet night.</p>
+        </article>
+
+        <article class="poem" id="poem-rain">
+            <h3>Rain</h3>
+            <p>Drip drop down,<br>Rain falls all around.</p>
+        </article>
+    </div>
+
+    <div id="wall-east">
+        <h2>East Wall</h2>
+
+        <article class="poem" id="poem-dream">
+            <h3>Dream</h3>
+            <p>A little dream,<br>Floats down the stream.</p>
+        </article>
+
+        <article class="poem" id="poem-stars">
+            <h3>Stars</h3>
+            <p>Stars above,<br>Shining with love.</p>
+        </article>
+    </div>
+
+    <div id="submission-station">
+        <h2>Submit a Poem</h2>
+
+        <input type="text" id="poem-title" placeholder="Poem title">
+
+        <textarea id="poem-content" placeholder="Poem lines"></textarea>
+
+        <input type="color" id="poem-color" value="#ffffff">
+
+        <select id="poem-wall">
+            <option value="wall-west">West Wall</option>
+            <option value="wall-east">East Wall</option>
+        </select>
+
+        <button id="add-poem-btn">Add Poem</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
