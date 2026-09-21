@@ -6,3 +6,6 @@ getElementById() returned one specific poem because IDs are unique. My group sel
 
 ### Phase 3
 I did not have to manually delete the poem from the West Wall. When I called `appendChild()`, the existing node was moved from its old parent to the new parent. I then changed its background color with JavaScript to show that it had been relocated.
+
+### Phase 4
+`document.createElement()` creates an element in memory, but it is not visible on the page yet. I set its content and styling, then used `appendChild()` to add it to the selected wall. At that point, the element becomes part of the DOM and appears on the page.
